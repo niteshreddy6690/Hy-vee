@@ -1,12 +1,10 @@
-import Head from "next/head";
-import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-
+import UserInfo from "@/views/userInfo";
 
 export default function Home() {
   return (
     <>
-      <h1>Person details </h1>
+      <UserInfo />
     </>
   );
 }

@@ -13,7 +13,11 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@views": ["./src/views/*"],
+      "@components": ["./src/components/*"],
+      "@atoms": ["./src/components/atoms/*"],
+      "@molecules": ["./src/components/molecules/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
